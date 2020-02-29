@@ -1,0 +1,50 @@
+@font-face{
+    src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+    font-family: "merri";
+}
+@font-face{
+    src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+    font-family: "sac";
+}
+#vector{
+    position: relative;
+    height: 40rem;
+    width: 20rem;
+    background: black;
+}
+.name{
+    font-size: 25px;
+    font-family: merri;
+    color: black;
+}
+.name1{
+    font-size: 40px;
+    font-family: sac;
+    color: rgb(54, 212, 205);
+}
+.des{
+    font-size: 13px;
+    font-style: merri;
+    color: black;
+}
+body{
+    text-align: center;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 62.5%;
+}
+.pub{
+    font-size: 12px;
+    font-family: merri;
+    color: rgb(54, 212, 205);
+}
+.copy:hover{
+    color: white;
+}
+.copy{
+    font-size: 15px;
+    color: black;
+    background-color: blue;
+    margin-bottom: 0rem;
+    padding: 1%;
+}
